@@ -28,7 +28,8 @@ class Reporter {
     this.testRailResults = [];
   }
 
-  async createRun(testRun_id) {
+  async updateTestRun(testRun_id) {
+    process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
     api
       .addResultsForCases(testRun_id, {
         results: this.testRailResults,
@@ -88,7 +89,7 @@ class Reporter {
         }
       }
     }
-    this.createRun(this._options.testRun_id);
+    this.updateTestRun(this._options.testRun_id);
   }
 }
 
