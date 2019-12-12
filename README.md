@@ -80,8 +80,10 @@ Also if you want to use API authentication instead of your password,
 
 ## Please note
 
-All credit goes to original authors. I made only some minor changes to suite my needs
-| [<img src="https://avatars.githubusercontent.com/jineshqa" width="100px;"/><br /><sub><b>Jinesh Doshi</b></sub>](https://github.com/jineshqa) |
+All credit goes to original authors. I made some minor changes to suite my needs
+
+
+[<img src="https://avatars.githubusercontent.com/jineshqa" width="100px;"/><br /><sub><b>Jinesh Doshi</b></sub>](https://github.com/jineshqa)
 
 ## Original Authors
 
