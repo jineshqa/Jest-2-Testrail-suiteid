@@ -4,15 +4,15 @@
 
 This package allows you to use [Jest](https://jestjs.io/) in conjunction with [TestRail](http://www.gurock.com/testrail/).
 
-- It can automatically create a new test run on TestRail.
-- It can automatically send test results to TestRail - after they've been run.
+- This allows you to update result on existing testrun in testrail.
 
+(This package is based on [Jest-2-Testrail](https://github.com/zeljkosimic95/Jest-2-Testrail))
 (This package is based on a similar reporter for Protractor - [Jasmine 2 testrail](https://www.npmjs.com/package/jasmine-2-testrail))
 
 ## Install
 
 ```code
-npm i jest-2-testrail
+npm i jest-2-testrail-suiteid
 ```
 
 ## Example - **jest-config.js**
@@ -79,6 +79,10 @@ Also if you want to use API authentication instead of your password,
 <br>enable session authentication for API in the TestRail Site Settings,
 <br>and add an API key in your User settings _(This is recommended)_.
 
+## Please note
+
+All credit goes to original authors. I made only some minor changes to suite my needs
+
 ## Authors
 
 | [<img src="https://avatars.githubusercontent.com/Slobo989" width="100px;"/><br /><sub><b>Slobodan Dušanić</b></sub>](https://github.com/Slobo989) | [<img src="https://avatars.githubusercontent.com/zeljkosimic95" width="100px;"/><br /><sub><b>Željko Simić</b></sub>](https://www.github.com/zeljkosimic95) |
@@ -86,6 +90,7 @@ Also if you want to use API authentication instead of your password,
 
 
 ## Special thanks
+
 
 | [<img src="https://avatars.githubusercontent.com/markoarsenal" width="100px;"/><br /><sub><b>Marko Rajević</b></sub>](https://github.com/markoarsenal) | [<img src="https://avatars.githubusercontent.com/phpoenix" width="100px;"/><br /><sub><b>Bogdan Petković</b></sub>](https://www.github.com/phpoenix) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
